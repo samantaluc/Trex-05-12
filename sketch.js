@@ -144,8 +144,8 @@ function draw(){
       restart.visible = true; //visibilidade da imagem de Restart 12/12
 
       //definir tempo de vida aos objetos do jogo para que nunca sejam destruídos 12/12
-       obstacles.setlifetimeEach(-1);
-        clouds.setlifetimeEach(-1);
+       obstacles.setLifetimeEach(-1);
+        clouds.setLifetimeEach(-1);
 
      //definir velocidade aos objetos do jogo para que nunca de movam 12/12
        obstacles.setVelocityXEach(0);
