@@ -110,7 +110,7 @@ function draw(){
       //calcula a pontuação dividindo o total de frames gerados por 60 07/12
     //score = score + Math.round(frameCount/60);
       //calculando a pontuação com maior precisão de frames gerados 21/12
-    score = score + Math.round(getFrameRate/60);
+    score = score + Math.round(getFrameRate()/60);
       //pular quando a tecla espaço for pressionada 28/11 E 07/12
     if(keyDown("space") && trex.y >= 100) {
       trex.velocityY = -10;
